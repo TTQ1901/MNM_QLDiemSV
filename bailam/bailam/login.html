@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Đăng nhập sinh viên</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="bootstraps/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <!-- Custom styles for this template-->
+  <link href="bootstraps/css/sb-admin.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark">
+
+  <div class="container">
+    <div class="card card-login mx-auto mt-5">
+      <div class="card-header">Đăng nhập sinh viên</div>
+      <div class="card-body">
+        <form action="login.php" method="post">
+          <div class="form-group">
+            <div class="form-label-group">
+              <input type="text" name="ma_sv" id="inputMaSV" class="form-control" placeholder="Mã sinh viên" required="required" autofocus="autofocus">
+              <label for="inputMaSV">Mã sinh viên</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-label-group">
+              <input type="password" name="passwordsv" id="inputPassword" class="form-control" placeholder="Mật khẩu" required="required">
+              <label for="inputPassword">Mật khẩu</label>
+            </div>
+          </div>
+          <input type="submit" name="login" class="btn btn-primary btn-block" value="Đăng nhập">
+        </form>
+        <div class="text-center">
+          <a class="d-block small mt-3" href="index.php?controllers=login&action=quen_mk">Quên mật khẩu?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <!-- Bootstrap core JavaScript-->
+  <script src="bootstraps/vendor/jquery/jquery.min.js"></script>
+  <script src="bootstraps/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Core plugin JavaScript-->
+  <script src="bootstraps/vendor/jquery-easing/jquery.easing.min.js"></script>
+</body>
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6">
+              <h5>Liên Hệ</h5>
+              <p>Địa chỉ: 140 Lê Trọng Tấn, Tây Thạnh, Tân Phú, Thành phố Hồ Chí Minh</p>
+              <p>Số điện thoại: 0123-456-789</p>
+          </div>
+          <div class="col-md-6">
+              <h5>Thông Tin</h5>
+              <p>Một số thông tin khác về trường hoặc website.</p>
+          </div>
+      </div>
+  </div>
+</footer>
+</html>

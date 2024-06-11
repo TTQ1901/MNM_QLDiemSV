@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thay đổi mật khẩu</title>
+  <!-- Link tới Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="mt-5">Thay đổi mật khẩu</h2>
+    <form method="post" action="thaydoi_matkhau.php" class="mt-3">
+      <div class="form-group">
+        <label for="ma_sv">Mã sinh viên:</label>
+        <input type="text" class="form-control" id="ma_sv" name="ma_sv" required>
+      </div>
+      <div class="form-group">
+        <label for="matkhau_cu">Mật khẩu cũ:</label>
+        <input type="password" class="form-control" id="matkhau_cu" name="matkhau_cu" required>
+      </div>
+      <div class="form-group">
+        <label for="matkhau_moi">Mật khẩu mới:</label>
+        <input type="password" class="form-control" id="matkhau_moi" name="matkhau_moi" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Thay đổi mật khẩu</button>
+    </form>
+  </div>
+  <!-- Link tới jQuery và Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
